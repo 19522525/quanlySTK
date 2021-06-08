@@ -38,6 +38,6 @@ namespace QuanLySoTietKiem
             this.Show();
         }
 
-
+       
     }
 }

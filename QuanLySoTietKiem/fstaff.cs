@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace QuanLySoTietKiem
 {
-    public partial class fcustomer : Form
+    public partial class fstaff : Form
     {
-        public fcustomer()
+        public fstaff()
         {
             InitializeComponent();
         }
 
-        private void GTbutton3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void KHbutton4_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }

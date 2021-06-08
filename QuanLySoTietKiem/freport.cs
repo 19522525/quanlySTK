@@ -10,31 +10,21 @@ using System.Windows.Forms;
 
 namespace QuanLySoTietKiem
 {
-    public partial class fopen : Form
+    public partial class freport : Form
     {
-        public fopen()
+        public freport()
         {
             InitializeComponent();
         }
 
-        private void MSbutton3_Click(object sender, EventArgs e)
+        private void BCTbutton2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void MSbutton1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MSbutton2_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

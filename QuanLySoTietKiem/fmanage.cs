@@ -47,5 +47,53 @@ namespace QuanLySoTietKiem
             f.ShowDialog();
             this.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            finformation f = new finformation();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            fcustomer f = new fcustomer();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            fstaff f = new fstaff();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            fchange f = new fchange();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            faccount f = new faccount();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            freport f = new freport();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }
